@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text{
+    color: hsl(357, 92%, 62%);
+    padding: 10%;
+    font-family: Poppins-Bold;
+    font-size: 45px;
+    font-weight: bold;
+}
+.para{
+    margin-top: -15%;
+    padding: 10%;
+    font-size: 18px;
+    font-family: Poppins-Bold;
+}
+.menu {
+    border-bottom: 1px solid transparent;
+
+}
+.menu:hover{
+    border-bottom: 1px solid #000;
+}
+.bgimage{
+    background-color: rgb(216, 209, 199);
+}
+.whoiam{
+    text-align: center;
+    font-family: Poppins-Bold;
+    font-size: 60px;
+    font-weight: bold;
+ 
+}
+.whoiam::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 5px;
+    background: #f7444e;
+    margin: 10px auto 10px;
+}
+.bgcard{
+    background-color: #002c3e;
+    color: #fff;
+    border-radius: 2%;
+ 
+}
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+.fa-code{
+    margin-left: 43%;
+}
+.card-text{
+    text-align: center;
+}
+.fa-laptop{
+    margin-left: 43%;
+}
+.fa-pencil{
+    margin-left: 43%;
+}
+.bgcolor{
+    background-color: rgb(216, 209, 199);
+    width: 100%;
+}
+.project-text{
+    color: #002c3e;
+    padding: 10%;
+    font-family: Poppins-Bold;
+    font-size: 45px;
+    font-weight: bold;  
+}
+.para2{
+    margin-top: -9%;
+}
+.our-project{
+    color: #002c3e;
+    padding: 10%;
+    font-family: Poppins-Bold;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+.Templates{
+    color: #f7444e;
+}
+.Templates::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 5px;
+    background: #f7444e;
+    margin: 10px auto 10px;
+}
+.Subscribe{
+    text-align: center;
+    font-family: Poppins-Bold;
+    font-size: 40px;
+    font-weight: bold;
+}
+.para3{
+    text-align: center;
+    margin-top: -40px;
+}
+input{
+    width: 60%;
+    height: 60px;
+    border: none;
+    border-radius: 90px;
+    outline: none;
+    padding: 5px 25px;
+    background-color: #ffffff;
+    text-align: left;
+}
+.bgfooter{
+    background-color: #f8f8f8;
+    width: 100%;
+}
+.detail p{
+    margin-bottom: 1.2rem;
+    line-height: 25px;
+    font-size: 15px;
+}
+.my-portfolio{
+    text-align: center;
+}
+.my-portfolio::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 5px;
+    background: #f7444e;
+    margin: 10px auto 10px;
+}
+.my{
+    color: #f7444e;
+}
+.mypic{
+  text-align: center;
+}
+.client{
+    border-radius: 999px;
+    width: 100px;
+    text-align: center;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .card:hover .middle {
+    opacity: 1;
+  }
+  
+  .text111 {
+    background-color: hsl(357, 92%, 62%);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    cursor: pointer;
+  }
+  
+ 
